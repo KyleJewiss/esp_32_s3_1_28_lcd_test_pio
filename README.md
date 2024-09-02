@@ -2,10 +2,10 @@
 
 <img src="waveshare_lcd.jpg" alt="waveshare_lcd" width="400px">
 
-An example PlatformIO project for the Waveshare [ESP32-S3-Touch-LCD-1.28](https://www.waveshare.com/wiki/ESP32-S3-Touch-LCD-1.28) screen. It is simply the `Sample_demo` Arduino project they provide on the products [wiki](https://www.waveshare.com/wiki/ESP32-S3-Touch-LCD-1.28#Demo) with the necessary PlatformIO configurations to run it.
+An example PlatformIO project for the Waveshare [ESP32-S3-Touch-LCD-1.28](https://www.waveshare.com/wiki/ESP32-S3-Touch-LCD-1.28) screen. It is simply the `sample_demo` Arduino project they provide on the products [wiki](https://www.waveshare.com/wiki/ESP32-S3-Touch-LCD-1.28#Demo) with the necessary PlatformIO configurations to run it.
 
 ### PlatformIO Config file
-If you don't want/need to clone the project, here is the `platformio.ini`. These values were source from the product wiki. NOTE: As of current testing, it must use version `2.0.12` of the Arduino-ESP32 firmware. 
+If you don't want/need to clone the project, here is the `platformio.ini`. These values were sourced from the product wiki. NOTE: As of current writing/testing, it must use version `2.0.12` of the Arduino-ESP32 firmware as shown below. 
 
 ```ini
 ; Initially source from: https://github.com/sivar2311/ESP32-S3-PlatformIO-Flash-and-PSRAM-configurations
